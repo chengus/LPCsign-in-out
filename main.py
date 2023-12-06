@@ -4,7 +4,8 @@ import tkinter as tk
 from tkinter import scrolledtext
 
 def convert_excel_to_sqlite(excel_file_path):
-    # Read the Excel file into a Pandas DataFrame
+    # Read the Excel file
+    # into a Pandas DataFrame
     df = pd.read_excel(excel_file_path)
 
     # Connect to SQLite database
