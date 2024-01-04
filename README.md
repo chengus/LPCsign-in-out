@@ -11,15 +11,4 @@ Main computer is connected to RPi through ethernet/wifi.
 RFID reader(s) connected directly to RPi.
 Both monitors are connected to the main computer.
 
-## Software setup - RPi
-1. Run PiScript.py from terminal
-2. Record IP address of main computer
-3. Ensure python3 installed  
 
-In PiScript.py:
-
-    while True:
-        card_number = read_card()
-        send_card_number_to_mac(card_number, 'MAC_IP_ADDRESS', 12345)  # Replace with actual Mac IP and port
-
-Run `python3 /path/to/PiScript.py/` in terminal
