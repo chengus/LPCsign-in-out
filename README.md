@@ -18,7 +18,6 @@ Both monitors are connected to the main computer.
 In PiScript.py:
 
     `while True:
-   
         card_number = read_card()
         send_card_number_to_mac(card_number, 'MAC_IP_ADDRESS', 12345)  # Replace with actual Mac IP and port`
 
