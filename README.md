@@ -1,2 +1,2 @@
-# LPCsign-in-out
-LPC sign in/out system at guard house with RFID, Google sheets, and python
+# LPC sign in/out system
+LPC sign-in/out system at guard house with RFID, Tkinter, Raspberry Pi, Python, Excel, and Google Drive API.
