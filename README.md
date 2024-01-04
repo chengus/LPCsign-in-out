@@ -11,4 +11,15 @@ Main computer is connected to RPi through ethernet/wifi.
 RFID reader(s) connected directly to RPi.
 Both monitors are connected to the main computer.
 
+## Software Logic
+Starting script initialize main script & parameter -> main script starts listening indefinately
+RPi capture RFID reader input indefinately -> sent to main script with socket -> process info -> display info -> record data 
+
+## Future plans
+- Package tkinter app to .exe
+- Color code in `tksheets` & exported Excel/Sheets
+- Incorporate web-based dashboard to assign overnights/extensions/gating
+- Upload to specific folder on google drive
+- Improve UI 
+
 
