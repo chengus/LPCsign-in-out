@@ -1,6 +1,8 @@
 # LPC sign in/out system
 LPC sign-in/out system at guard house with RFID, Tkinter, Raspberry Pi, Python, Excel, and Google Drive API.
 
+![alt text](InitialPlanning.png)
+
 ## Hardware setup
 1. Mac/Windows computer: internet access, two monitor ports, ethernet(preferred)/wifi connectivity
 2. Raspberry Pi (ethernet preferred) - Assigned static IP/Direct Connection
